@@ -18,7 +18,7 @@ userRouter.post("/email", async (request: Request, response: Response) => {
       service: "gmail",
       auth: {
         user: "juliomoreira0111@gmail.com", 
-        pass: "guvf zjpp mmpy vlzw", 
+        pass: SENHAAPP, 
       },
     });
 
